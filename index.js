@@ -37,6 +37,6 @@ request(proxRequest, function (error, response, body) {
 
 
 
-module.exports = require("./lib/pearson-sdk.js"); //to export if you like.
+module.exports = PearsonApis = require("./lib/pearson-sdk.js"); //to export if you like.
 
 
