@@ -9,7 +9,8 @@
           "url": "http://github.com/PearsonAPI/Pearson-Api-Sdk-Node.git"
         },
   "dependencies": {
-    "restler": "2.0.1"
+    "restler": "2.0.1",
+    "request":"*"
     },
   "devDependencies": {
     "jasmine-node": "1.11.0",

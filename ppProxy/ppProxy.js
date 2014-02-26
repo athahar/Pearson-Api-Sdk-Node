@@ -14,7 +14,7 @@ var url = require('url');
 var API_HOST = 'api.pearson.com';
 
 // ** THIS IS WHERE YOU NEED TO KEEP YOUR KEY, NICE AND SAFE - ASSUMING ONLY YOU CAN ACCESS THE SERVER :) **
-var API_KEY = 'ApiKey'; // Your api key!
+var API_KEY = 'dqAFBNIrHfXeJRnkyiMqaYv9De8AX2lG'; // Your api key!
 
 var ipWhitelist = [];
 
