@@ -13,7 +13,7 @@ var requestUrl = topten.getSearchUrl(); // This sets up the parameters and searc
 
 request(requestUrl, function (error, response, body) {
   if (!error && response.statusCode == 200) {
-    console.log(body) // Here's the results from the api.
+   // console.log(body) // Here's the results from the api.
 } else {
   	console.log(error);
   }
@@ -28,7 +28,7 @@ var proxRequest = proxTopten.getSearchUrl();
 
 request(proxRequest, function (error, response, body) {
   if (!error && response.statusCode == 200) {
-    console.log(body) //Here's the results from the api.
+    //console.log(body) //Here's the results from the api.
   } else {
   	console.log(error);
   }
